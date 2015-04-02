@@ -1,29 +1,32 @@
 {
-    "name": "factory-girl-jugglingdb",
-    "version": "0.0.1",
-    "description": "A JugglingDB adapter for factory-girl",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:rehanift/factory-girl-jugglingdb.git"
-    },
-    "keywords": [
-        "factory-girl",
-        "factory",
-        "test",
-        "bdd",
-        "tdd",
-        "fixture"
-    ],
-    "devDependencies":{
-        "factory-girl":"*",
-        "jugglingdb":"*",
-        "mocha":"*",
-        "chai":"*"
-    },
-    "author": "Rehan Iftikhar",
-    "license": "MIT"
+  "name": "factory-girl-backbone",
+  "version": "0.0.1",
+  "description": "A Backbone adapter for factory-girl",
+  "main": "factory-girl-adapter.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:celsomarques/factory-girl-backbone.git"
+  },
+  "keywords": [
+    "factory-girl-amd",
+    "factory-girl-backbone",
+    "factory-girl",
+    "factory",
+    "backbone",
+    "test",
+    "bdd",
+    "tdd",
+    "fixture"
+  ],
+  "devDependencies":{
+    "factory-girl": "v1.1.4",
+    "backbone": "^1.1.2",
+    "chai": "^1.10.0",
+    "mocha": ">= 0.7.1"
+  },
+  "author": "Celso Marques",
+  "license": "MIT"
 }
