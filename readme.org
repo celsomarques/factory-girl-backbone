@@ -1,4 +1,4 @@
-* factory-girl-jugglingdb
+* factory-girl-backbone
 
 A [[https://github.com/jashkenas/backbone][Backbone]] adapter for [[https://github.com/aexmachina/factory-girl][factory-girl]]
 
