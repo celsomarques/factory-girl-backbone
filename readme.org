@@ -1,18 +1,18 @@
 * factory-girl-jugglingdb
 
-A [[https://github.com/1602/jugglingdb][JugglingDB]] adapter for [[https://github.com/aexmachina/factory-girl][factory-girl]]
+A [[https://github.com/jashkenas/backbone][Backbone]] adapter for [[https://github.com/aexmachina/factory-girl][factory-girl]]
 
 ** Usage
    - Load =factory-girl= and set the adapter     
      #+BEGIN_SRC javascript
        var factory = require("factory-girl");
-       var JugglingDbAdapter = require("../").JugglingDbAdapter;
-       factory.setAdapter(JugglingDbAdapter);
+       var BackboneAdapter = require("../factory-girl-backbone").BackboneAdapter;
+       factory.setAdapter(BackboneAdapter);
      #+END_SRC
 
-   - Load your JugglingDB model
+   - Create your Backbone Model
      #+BEGIN_SRC javascript
-       var User = require("./resources/User").User;
+       var User = Backbone.Model.extend({ urlRoot: '' });
      #+END_SRC
 
    - Define your factories
