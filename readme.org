@@ -7,7 +7,7 @@ A [[https://github.com/jashkenas/backbone][Backbone]] adapter for [[https://gith
      #+BEGIN_SRC javascript
        var factory = require("factory-girl");
        var BackboneAdapter = require("../factory-girl-backbone").BackboneAdapter;
-       factory.setAdapter(BackboneAdapter);
+       factory.setAdapter(new BackboneAdapter());
      #+END_SRC
 
    - Create your Backbone Model
