@@ -1,6 +1,6 @@
 {
   "name": "factory-girl-backbone",
-  "version": "0.0.2",
+  "version": "v1.0.0",
   "description": "A Backbone adapter for factory-girl",
   "main": "factory-girl-adapter.js",
   "scripts": {
