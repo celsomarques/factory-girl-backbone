@@ -1,0 +1,23 @@
+{
+  "name": "factory-girl-backbone",
+  "main": "factory-girl-backbone.js",
+  "version": "0.0.2",
+  "homepage": "https://github.com/celsomarques/factory-girl-backbone",
+  "authors": [
+    "Celso Marques", "Rafael Jesus"
+  ],
+  "keywords": [
+    "backbone"
+    "factory-girl-backbone",
+    "factory-girl",
+    "factory"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
