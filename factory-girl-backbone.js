@@ -32,7 +32,7 @@
     exports.BackboneAdapter = BackboneAdapter;
   }
   else {
-    root.BackboneAdapter = BackbonerAdapater;
+    root.BackboneAdapter = BackboneAdapter;
   }
 
   if (typeof define === 'function' && define.amd) {
