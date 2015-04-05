@@ -29,9 +29,6 @@
     }
     exports.BackboneAdapter = BackboneAdapter;
   }
-  else {
-    root.BackboneAdapter = BackboneAdapter;
-  }
 
   if (typeof define === 'function' && define.amd) {
     define('factory-girl-backbone', function() {
