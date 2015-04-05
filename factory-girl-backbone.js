@@ -1,5 +1,7 @@
 (function() {
 
+  var root = this;
+  
   var BackboneAdapter = function() {};
   BackboneAdapter.prototype.build = function(Model, props) {
     return new Model(props);
@@ -17,8 +19,8 @@
     doc.save(cb);
   };
   /**
-   *    *     Be aware that the model may have already been destroyed
-   *       *        */
+   *  Be aware that the model may have already been destroyed
+   **/
   BackboneAdapter.prototype.destroy = function(doc, Model, cb) {
     doc.destroy(cb);
   };
@@ -28,6 +30,9 @@
       exports = module.exports = BackboneAdapter;
     }
     exports.BackboneAdapter = BackboneAdapter;
+  }
+  else {
+    root.BackboneAdapter = BackbonerAdapater;
   }
 
   if (typeof define === 'function' && define.amd) {
